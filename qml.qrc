@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>graphic/logo/weigo.png</file>
+        <file>graphic/logo/weigo.psd</file>
+        <file>graphic/logo/weigo.svg</file>
+        <file>registration.qml</file>
+        <file>settings.qml</file>
+        <file>rooms.qml</file>
+        <file>graphic/triangle/triangle.png</file>
+        <file>graphic/triangle/triangle.svg</file>
+        <file>navigation.qml</file>
+        <file>profile.qml</file>
+        <file>graphic/buttons/settings.svg</file>
+        <file>graphic/buttons/close.svg</file>
+        <file>game.qml</file>
+        <file>graphic/manipulators/blhand.svg</file>
+        <file>graphic/manipulators/whhand.svg</file>
+    </qresource>
+</RCC>
