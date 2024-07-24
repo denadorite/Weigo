@@ -1,0 +1,8 @@
+-I
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug
+-I
+/home/art/Qt/6.7.2/gcc_64/./qml
+--resource
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_weigo.qrc
+--module
+weigo

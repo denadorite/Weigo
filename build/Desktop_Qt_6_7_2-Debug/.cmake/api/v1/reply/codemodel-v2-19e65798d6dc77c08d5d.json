@@ -1,0 +1,160 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f3f27b9a927b8f8ab757.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "weigo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-7293b5e4260f9bf1b902.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-63cf6e3921c1632943bc.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-002ec9f3b8f0c5117e99.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-93164870b1ae559b4f9c.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo-Debug-ce3e22509ec1d7a661bc.json",
+					"name" : "appweigo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo_autogen-Debug-3ea3729945432ecefb05.json",
+					"name" : "appweigo_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo_autogen_timestamp_deps-Debug-e22c8a33537ee4b70216.json",
+					"name" : "appweigo_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo_qmlimportscan-Debug-8898b651203f69298b93.json",
+					"name" : "appweigo_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo_qmllint-Debug-694538b01c5d26f3c692.json",
+					"name" : "appweigo_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo_qmllint_json-Debug-c44b5adec5a06354e33d.json",
+					"name" : "appweigo_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo_qmllint_module-Debug-aba987bfdc741f664060.json",
+					"name" : "appweigo_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appweigo_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appweigo_qmltyperegistration-Debug-10b633a0bf6d450693b2.json",
+					"name" : "appweigo_qmltyperegistration",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/art/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug",
+		"source" : "/home/art/\u0420\u0430\u0431\u043e\u0447\u0438\u0439 \u0441\u0442\u043e\u043b/wgo/Weigo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

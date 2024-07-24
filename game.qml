@@ -31,7 +31,7 @@ Window
     property int xPos: 0
     property int yPos: 0
     property bool soundOn: true
-    property int dpi: Screen.pixelDensity * 25.4
+    property int dpi: Screen.pixelDensity * 25.4 * 0.95
 
     function dp(x){
             if(dpi < 120) {

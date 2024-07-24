@@ -1,0 +1,13 @@
+-rootPath
+/home/art/Рабочий стол/wgo/Weigo
+-cmake-output
+-output-file
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/.qt/qml_imports/appweigo_build.cmake
+-importPath
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/weigo
+-importPath
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug
+-importPath
+/home/art/Qt/6.7.2/gcc_64/./qml
+-qrcFiles
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/.qt/rcc/qmake_weigo.qrc

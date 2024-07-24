@@ -1,0 +1,2 @@
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/appweigo_autogen/include/../EWIEGA46WW/moc_goboard.cpp.json
+/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/appweigo_autogen/include/../EWIEGA46WW/moc_sgf_reader.cpp.json
