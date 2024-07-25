@@ -1,4 +1,0 @@
-module weigo
-typeinfo appweigo.qmltypes
-prefer :/weigo/
-

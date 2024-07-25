@@ -10,7 +10,7 @@ public:
 
 private:
     void recogniteSGF();
-    QList<QList<int>> boardMatrixIdentity;
+    QVector<QVector<int>> boardMatrixIdentity;
 signals:
 
 };
