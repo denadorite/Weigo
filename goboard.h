@@ -20,12 +20,12 @@ private:
     bool killedStoneFlag, damezumariFlag, selfDestructFlag;
     int imaginaryKoIndex, koPosition = -10, suicideFlag = 0, mindedIndex = -10, currentPosition = -10, moves = 0, oneStoneFlag = 0;
 
-    void identifyGroup(QList<QList<int>>, const int &, const int &, const int &, const int &, int &);
-    void checkNearestGroup(QList<QList<int>> & array, const int &positionX, const int &positionY, const int & index, const int & color);
-    bool isNearStonesKilled(QList<QList<int>> & array, const int &positionX, const int &positionY, const int & index, const int & color);
+    void identifyGroup(QVector<QVector<int>>, const int &, const int &, const int &, const int &, int &);
+    void checkNearestGroup(QVector<QVector<int>> & array, const int &positionX, const int &positionY, const int & index, const int & color);
+    bool isNearStonesKilled(QVector<QVector<int>> & array, const int &positionX, const int &positionY, const int & index, const int & color);
 
 public slots:
-    void makeRules(QList<QList<int>>, const int &, const int &, const int &, int);
+    void makeRules(QVector<QVector<int>>, const int &, const int &, const int &, int);
 
 signals:
     void deleteStone(const int &);

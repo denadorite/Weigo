@@ -49,3 +49,20 @@
 5	51	1721798402557374761	/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/appweigo_autogen/EWIEGA46WW/qrc_qml.cpp	f00b73f06d3d0780
 51	426	1721798402560708139	CMakeFiles/appweigo.dir/appweigo_autogen/EWIEGA46WW/qrc_qml.cpp.o	b9cc4afdf9a976b5
 426	760	1721798402937379705	appweigo	dcaf33b565876a37
+4	309	1721873924591085587	appweigo_autogen/timestamp	76b6268914f2a079
+4	309	1721873924591085587	appweigo_autogen/mocs_compilation.cpp	76b6268914f2a079
+4	309	1721873924591085587	/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/appweigo_autogen/timestamp	76b6268914f2a079
+4	309	1721873924591085587	/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/appweigo_autogen/mocs_compilation.cpp	76b6268914f2a079
+309	313	1721873924601085448	meta_types/appweigo_json_file_list.txt	4449763edb37fcf7
+309	313	1721873924601085448	meta_types/appweigo_json_file_list.txt.timestamp	4449763edb37fcf7
+309	313	1721873924601085448	/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/meta_types/appweigo_json_file_list.txt	4449763edb37fcf7
+309	313	1721873924601085448	/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/meta_types/appweigo_json_file_list.txt.timestamp	4449763edb37fcf7
+314	318	1721873924601085448	meta_types/qt6appweigo_debug_metatypes.json.gen	5dd2726dae461b1c
+314	318	1721873924601085448	meta_types/qt6appweigo_debug_metatypes.json	5dd2726dae461b1c
+314	318	1721873924601085448	/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/meta_types/qt6appweigo_debug_metatypes.json.gen	5dd2726dae461b1c
+314	318	1721873924601085448	/home/art/Рабочий стол/wgo/Weigo/build/Desktop_Qt_6_7_2-Debug/meta_types/qt6appweigo_debug_metatypes.json	5dd2726dae461b1c
+319	2157	1721873924607752022	CMakeFiles/appweigo.dir/sgf_reader.cpp.o	151c716418e2dd8b
+319	2575	1721873924607752022	CMakeFiles/appweigo.dir/goboard.cpp.o	945d4dbd5afcefd5
+318	2945	1721873924607752022	CMakeFiles/appweigo.dir/appweigo_autogen/mocs_compilation.cpp.o	b67da1b9cb30cea5
+319	2951	1721873924607752022	CMakeFiles/appweigo.dir/main.cpp.o	adc5032cabd1c809
+2951	3261	1721873927241048647	appweigo	dcaf33b565876a37

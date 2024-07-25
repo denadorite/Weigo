@@ -103,7 +103,7 @@ Q_CONSTINIT const QMetaObject GoBoard::staticMetaObject = { {
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'makeRules'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
-        QtPrivate::TypeAndForceComplete<QList<QList<int>>, std::false_type>,
+        QtPrivate::TypeAndForceComplete<QVector<QVector<int>>, std::false_type>,
         QtPrivate::TypeAndForceComplete<const int &, std::false_type>,
         QtPrivate::TypeAndForceComplete<const int &, std::false_type>,
         QtPrivate::TypeAndForceComplete<const int &, std::false_type>,

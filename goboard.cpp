@@ -1,13 +1,12 @@
 #include "goboard.h"
 #include <QDebug>
-#include <ctime>
 
 GoBoard::GoBoard(QObject *parent) : QObject(parent), currentColor(1), killedStoneFlag(0), imaginaryKoIndex(-10) { }
 
 GoBoard::~GoBoard() { }
 
 // Идентификация группы - запоминание всех индексов камней текущей группы и количества её дыханий
-void GoBoard::identifyGroup(QList<QList<int>> array, const int &positionX, const int &positionY,
+void GoBoard::identifyGroup(QVector<QVector<int>> array, const int &positionX, const int &positionY,
                             const int & index, const int & color, int & libertyCounter) {
 
     // Если выходим за границу доски - прерываем обработку текущей группы
@@ -72,7 +71,7 @@ void GoBoard::identifyGroup(QList<QList<int>> array, const int &positionX, const
 }
 
 // Функция обнаружения соседних групп камней противоположного цвета
-void GoBoard::checkNearestGroup(QList<QList<int>> &array, const int &positionX, const int &positionY,
+void GoBoard::checkNearestGroup(QVector<QVector<int>> &array, const int &positionX, const int &positionY,
                                 const int &index, const int & color) {
 
     // Если выходим за границу доски - прерываем обработку текущей группы
@@ -131,7 +130,7 @@ void GoBoard::checkNearestGroup(QList<QList<int>> &array, const int &positionX, 
 }
 
 // Функция проверки взятия в плен хотя бы одного соседнего камня слева, снизу, сверху или справа от поставленного
-bool GoBoard::isNearStonesKilled(QList<QList<int>> & array, const int &positionX, const int &positionY, const int & index, const int & color)
+bool GoBoard::isNearStonesKilled(QVector<QVector<int>> & array, const int &positionX, const int &positionY, const int & index, const int & color)
 {
     // Инициализируем флаг для определения взятого в плен камня, индексы для прохода по всем четырём направлениям
     // от поставленного камня и счетчик количества направлений от камня, в которых былла
@@ -163,7 +162,7 @@ bool GoBoard::isNearStonesKilled(QList<QList<int>> & array, const int &positionX
 }
 
 // Функция актуализации положения камней на доске при каждом ходе
-void GoBoard::makeRules(QList<QList<int>> array, const int &positionX, const int &positionY, const int & index, int color) {
+void GoBoard::makeRules(QVector<QVector<int>> array, const int &positionX, const int &positionY, const int & index, int color) {
 
     // Берём цвет текущего камня и актуальную позицию хода игрока
     currentColor = color;
