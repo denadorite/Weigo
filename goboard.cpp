@@ -1,6 +1,5 @@
 #include "goboard.h"
 #include <QDebug>
-#include <ctime>
 
 GoBoard::GoBoard(QObject *parent) : QObject(parent), currentColor(1), killedStoneFlag(0), imaginaryKoIndex(-10) { }
 
